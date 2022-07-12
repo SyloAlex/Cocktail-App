@@ -1,0 +1,50 @@
+.details-container .details-cocktail-info {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.details-container .details-cocktail-info p {
+    font-size: 2rem;
+    text-align: left;
+    padding: 0.5rem;
+    padding-left: 1rem;
+}
+
+.details-container .details-cocktail-info .cocktail-image {
+    width: 45%;
+    height: inherit;
+}
+
+.details-container .details-cocktail-info .cocktail-image img {
+    width: 100%;
+    border-radius: 1rem;
+    height: 100%;
+}
+
+.details-container .details-cocktail-info .cocktail-info {
+    width: 45%;
+    border: 0.4rem solid #520e00;
+    border-radius: 1rem;
+}
+
+.details-container .details-cocktail-info .cocktail-info .block-info {
+    margin-top: 1.5rem;
+}
+
+.details-container .details-cocktail-info .cocktail-info .cocktail-info-title {
+    color: white;
+    background-color: #520e00;
+    padding: 1rem 0;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.details-container .details-cocktail-info .cocktail-info h2 {
+    font-size: 1.7rem;
+    color: #520e00;
+    font-family: 'Poppins', sans-serif;
+}
+
+.details-container .details-cocktail-info .cocktail-info h1 {
+    font-family: 'Poppins', sans-serif;
+}

@@ -14,3 +14,15 @@
 .header-container .header-logo img {
     height: inherit;
 }
+
+@media (max-width:1000px) {
+    .header-redux {
+        display: none;
+    }
+}
+
+@media (max-width:500px) {
+    .header-bar {
+        display: none;
+    }
+}

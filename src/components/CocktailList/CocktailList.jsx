@@ -29,15 +29,19 @@ const CocktailList = () => {
         }
     }, [cocktails])
 
+    if (!cocktails) {
+        return <h1 className='search-failed'>No cocktails matched your search</h1>
+    }
+
     return (
         <div className='cocktail-list-container'>
             {loading ? 
             <img src='https://www.sharlenecalzature.it/wp-content/uploads/2020/09/load4.gif' alt='Loading'/> 
             : null}
             <div className="cocktail-list-cards">
-                {modifiedCocktail.map((item) => {
+                {!loading ? modifiedCocktail.map((item) => {
                     return <CocktailCard key={item.id} cocktail={item} />
-                })}
+                }) : null}
             </div>
         </div>
     )

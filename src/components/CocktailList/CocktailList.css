@@ -2,4 +2,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
+    overflow-y: scroll;
+}
+
+.cocktail-list-container {
+    height: calc(100vh - 331px);
+    overflow-y: scroll;
+}
+
+.search-failed {
+    margin-top: 2rem;
 }
