@@ -1,0 +1,27 @@
+.cocktail-card-container {
+    width: 30%;
+    margin: 1rem 0;
+    font-size: 1.5rem;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    background-color: #520e00;
+    color: white;
+    border-radius: 1rem;
+}
+.cocktail-card-container h2 {
+    padding-left: 2rem;
+}
+
+.cocktail-card-container .cocktail-card-figure {
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.cocktail-card-container .cocktail-card-figure img {
+    width: 100%;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}

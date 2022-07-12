@@ -1,0 +1,30 @@
+.search-input-container {
+    font-size: 2rem;
+    background-color: #520e00;
+    color: white;
+    padding: 2rem 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.search-input-container input {
+    margin-top: 2rem;
+    font-size: 2rem;
+    background-color: inherit;
+    color: white;
+    border: none;
+    border-bottom: 0.1rem solid white;
+    padding: 0.5rem;
+    font-family: 'Poppins', sans-serif;
+    width: 60%;
+}
+
+.search-input-container input:focus {
+    outline: none;
+}
+
+.search-input-container input::placeholder {
+    color: white;
+}
